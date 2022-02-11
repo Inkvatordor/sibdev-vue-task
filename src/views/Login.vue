@@ -1,16 +1,16 @@
 <template>
   <el-container class="Login">
-    <LoginComponent/>
+    <LoginForm/>
   </el-container>
 </template>
 
 <script>
-import LoginComponent from '@/components/LoginComponent/LoginComponent.vue'
+import LoginForm from '@/components/LoginForm/LoginForm.vue'
 
 export default {
   name: 'Login',
   components: {
-    LoginComponent
+    LoginForm
   }
 }
 </script>

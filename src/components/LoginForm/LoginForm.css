@@ -1,0 +1,32 @@
+.form {
+  width: 510px;
+  height: 520px;
+  border: 1px solid rgba(39, 39, 39, 0.1);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form__login-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.form__login-input, .form__password-input {
+  width: 334px;
+}
+
+.form__submit-button{
+  width: 176px;
+}

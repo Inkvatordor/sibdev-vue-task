@@ -1,0 +1,46 @@
+*{
+  text-decoration: none;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  /* Siberian blue */
+  color: #1390E5;
+
+}
+
+.header__search, .header__favourite, .header__logout{
+  cursor: pointer;
+}
+
+.header__logo {
+  width: 48px;
+  height: 48px;
+  margin-left: 200px;
+  margin-right: 20px;
+
+}
+
+.header__favourite{
+  margin-left: 40px;
+}
+
+.header__logout{
+  margin-left: auto;
+  margin-right: 220px;
+}
+
+.header__selected{
+  /* padding-bottom: 15px;
+  border-bottom: 2px solid #1390E5; */
+}
